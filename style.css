@@ -48,17 +48,18 @@ section {
 .amount-list h2 {
   font-weight: 600;
   background-color: rgb(236, 234, 234);
-  padding: 30px 40px;
+  padding: 40px 40px;
   color: gray;
   margin: 10px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .donate-today p {
-  width: 55%;
+  max-width: 100ch;
+  margin-bottom: 30px;
 }
 #tk200 {
   color: tomato;
-  border: 1px solid tomato;
+  border: 2px solid tomato;
   background-color: rgba(255, 99, 71, 0.281);
 }
 input[type=number] {
@@ -82,6 +83,33 @@ input[type=submit] {
   border: none;
   margin: 0 auto
 }
+.donate-plan p{
+  max-width: 100ch;
+}
+.card-holder {
+  display: flex;
+  margin-top: 30px;
+}
+.item-card {
+  width: 400px;
+  text-align: left;
+  margin: 10px;
+  padding: 25px 17px;
+  border-radius: 5px;
+}
 #input-amount {
   margin: 50px 0;
+}
+.card-img {
+  width: 100px;
+  margin: 20px 0;
+}
+#food-card {
+  background-color: #4f9da63f;
+}
+#med-card {
+  background-color: #ff59593b;
+}
+#land-card {
+  background-color: #fff4d669;
 }
