@@ -3,6 +3,9 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+body {
+  color: rgb(61, 61, 61);
+}
 h1 {
   font-size: 60px;
   font-weight: 800;
@@ -152,5 +155,6 @@ footer {
 }
 footer h1 {
   color: tomato;
+  font-weight: normal;
   font-family: 'Lobster', cursive;
 }
