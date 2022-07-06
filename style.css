@@ -12,6 +12,7 @@ h1 {
 }
 h2 {
   font-size: 45px;
+  margin-bottom: 40px;
 }
 h3 {
   font-size: 23px;
@@ -28,11 +29,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .top-banner {
   color: white;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.712)), url(images/donation/kenya-children-fruit-smash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.753)), url(images/donation/kenya-children-fruit-smash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
@@ -57,7 +58,7 @@ section {
 .amount-list h2 {
   font-weight: 600;
   background-color: rgb(236, 234, 234);
-  padding: 40px 40px;
+  padding: 60px 40px;
   color: gray;
   margin: 10px;
   border-radius: 5px;
@@ -157,4 +158,35 @@ footer h1 {
   color: tomato;
   font-weight: normal;
   font-family: 'Lobster', cursive;
+}
+.quote-card {
+  display: flex;
+  width: 55%;
+  margin: 20px 0;
+}
+.quote-card img {
+  height: 200px;
+  clip-path: circle();
+}
+.quote-content {
+  margin: auto 0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.quote-content p {
+  padding: 10px;
+}
+.left-aligned {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 30px;
+  padding-right: auto;
+  background-color: #4f9da63f;
+}
+.right-aligned {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 30px;
+  background-color: #ff59593b;
 }
