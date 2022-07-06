@@ -8,6 +8,12 @@ h1 {
   font-size: 60px;
   font-weight: 900;
 }
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 23px;
+}
 p {
   font-size: 20px;
   font-weight: 400;
@@ -89,9 +95,10 @@ input[type=submit] {
 .card-holder {
   display: flex;
   margin-top: 30px;
+  justify-content: center;
 }
 .item-card {
-  width: 400px;
+  width: 22%;
   text-align: left;
   margin: 10px;
   padding: 25px 17px;
@@ -112,4 +119,27 @@ input[type=submit] {
 }
 #land-card {
   background-color: #fff4d669;
+}
+#newsletter {
+  width: 55%;
+  height: 250px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff4d69a;
+}
+#newsletter form{
+  display: flex;
+}
+#newsletter input[type=email] {
+  width: 40ch;
+  font-size: 18px;
+  padding-left: 20px;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+#newsletter input[type=submit] {
+  border-radius: 0 5px 5px 0;
 }
