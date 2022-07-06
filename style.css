@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 40px 0;
+}
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-banner {
+  color: white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.712)), url(images/donation/kenya-children-fruit-smash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+.top-banner p {
+  width: 70ch;
+}
+.orange-button {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  background-color: tomato;
+  padding: 17px 40px;
+  border-radius: 5px;
+}
